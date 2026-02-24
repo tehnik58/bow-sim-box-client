@@ -15,6 +15,15 @@ public class ArrowController : MonoBehaviour
             rb = GetComponent<Rigidbody>();
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "target")
+        {
+            rb.freezeRotation = true;
+            rb.isKinematic = true;
+        }
+    }
+
     private void FixedUpdate()
     {
         // Получаем текущую скорость

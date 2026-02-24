@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "controller",
+    "maps": [
+        {
+            "name": "bow",
+            "id": "2ceb1983-86ff-42e6-9c04-93fae7593acb",
+            "actions": [
+                {
+                    "name": "bow",
+                    "type": "Value",
+                    "id": "87e4950e-3dc9-436f-9199-405244e2b98c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c80d5482-c8a9-472d-9dac-86b1fd4e4ac0",
+                    "path": "<XRInputV1::Oculus::MetaQuestTouchPlusControllerOpenXR>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "bow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

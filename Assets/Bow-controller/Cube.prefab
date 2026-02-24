@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 766275675624820830}
   - component: {fileID: 7252369312616483699}
   - component: {fileID: -149441891199871111}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.94254, y: 0, z: 2.2871}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1.77}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 1.77}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: -876546973899608171, guid: 3739e562a03fc0b4982d8aa66cc50865, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,8 +111,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.059493247}
+  m_Center: {x: 0, y: 0, z: 0.47025254}
 --- !u!54 &7252369312616483699
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -154,4 +154,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArrowController
   rb: {fileID: 7252369312616483699}
   rotationSpeed: 10
-  minVelocity: 0.001
+  minVelocity: 0.01
